@@ -21,3 +21,7 @@ minetest.register_node("brate:rate", {
     brate.show_rater_formspec( clicker, pos );
 	end,
 	
+minetest.register_craft({
+	ouptut = "brate:rate",
+	recipe = brate.rate_recipe,
+	)}
